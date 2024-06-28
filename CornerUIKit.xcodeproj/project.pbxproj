@@ -13,6 +13,13 @@
 		9029996A2C2E268C00804204 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 902999692C2E268C00804204 /* Base */; };
 		9029996C2C2E268D00804204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9029996B2C2E268D00804204 /* Assets.xcassets */; };
 		9029996F2C2E268D00804204 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9029996E2C2E268D00804204 /* Base */; };
+		9029997A2C2E306C00804204 /* Phonk Contrast DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = 902999762C2E306C00804204 /* Phonk Contrast DEMO.otf */; };
+		9029997B2C2E306C00804204 /* Phonk Regular DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = 902999772C2E306C00804204 /* Phonk Regular DEMO.otf */; };
+		9029997C2C2E306C00804204 /* Read me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 902999782C2E306C00804204 /* Read me.txt */; };
+		9029997E2C2E450000804204 /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029997D2C2E450000804204 /* ProfileInfoView.swift */; };
+		902999802C2E525900804204 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029997F2C2E525900804204 /* GridView.swift */; };
+		9061F4812C2EE6CA00A3E81D /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9061F4802C2EE6CA00A3E81D /* ProfileHeaderView.swift */; };
+		9061F4852C2EF2EA00A3E81D /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9061F4842C2EF2EA00A3E81D /* ProfileImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		9029996B2C2E268D00804204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9029996E2C2E268D00804204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902999702C2E268D00804204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902999762C2E306C00804204 /* Phonk Contrast DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Phonk Contrast DEMO.otf"; sourceTree = "<group>"; };
+		902999772C2E306C00804204 /* Phonk Regular DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Phonk Regular DEMO.otf"; sourceTree = "<group>"; };
+		902999782C2E306C00804204 /* Read me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Read me.txt"; sourceTree = "<group>"; };
+		9029997D2C2E450000804204 /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
+		9029997F2C2E525900804204 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		9061F4802C2EE6CA00A3E81D /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		9061F4842C2EF2EA00A3E81D /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,46 @@
 		902999612C2E268B00804204 /* CornerUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				902999792C2E306C00804204 /* Phonk - Free DEMO */,
+				9061F4822C2EF29800A3E81D /* Core */,
 				902999622C2E268B00804204 /* AppDelegate.swift */,
 				902999642C2E268B00804204 /* SceneDelegate.swift */,
-				902999662C2E268B00804204 /* ViewController.swift */,
 				902999682C2E268C00804204 /* Main.storyboard */,
 				9029996B2C2E268D00804204 /* Assets.xcassets */,
 				9029996D2C2E268D00804204 /* LaunchScreen.storyboard */,
 				902999702C2E268D00804204 /* Info.plist */,
 			);
 			path = CornerUIKit;
+			sourceTree = "<group>";
+		};
+		902999792C2E306C00804204 /* Phonk - Free DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				902999762C2E306C00804204 /* Phonk Contrast DEMO.otf */,
+				902999772C2E306C00804204 /* Phonk Regular DEMO.otf */,
+				902999782C2E306C00804204 /* Read me.txt */,
+			);
+			path = "Phonk - Free DEMO";
+			sourceTree = "<group>";
+		};
+		9061F4822C2EF29800A3E81D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				902999662C2E268B00804204 /* ViewController.swift */,
+				9061F4832C2EF2A300A3E81D /* ProfileView */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9061F4832C2EF2A300A3E81D /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				9029997F2C2E525900804204 /* GridView.swift */,
+				9029997D2C2E450000804204 /* ProfileInfoView.swift */,
+				9061F4802C2EE6CA00A3E81D /* ProfileHeaderView.swift */,
+				9061F4842C2EF2EA00A3E81D /* ProfileImageView.swift */,
+			);
+			path = ProfileView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9029996C2C2E268D00804204 /* Assets.xcassets in Resources */,
+				9029997A2C2E306C00804204 /* Phonk Contrast DEMO.otf in Resources */,
+				9029997B2C2E306C00804204 /* Phonk Regular DEMO.otf in Resources */,
+				9029997C2C2E306C00804204 /* Read me.txt in Resources */,
 				9029996F2C2E268D00804204 /* Base in Resources */,
 				9029996A2C2E268C00804204 /* Base in Resources */,
 			);
@@ -138,8 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9029997E2C2E450000804204 /* ProfileInfoView.swift in Sources */,
+				9061F4852C2EF2EA00A3E81D /* ProfileImageView.swift in Sources */,
+				9061F4812C2EE6CA00A3E81D /* ProfileHeaderView.swift in Sources */,
 				902999672C2E268B00804204 /* ViewController.swift in Sources */,
 				902999632C2E268B00804204 /* AppDelegate.swift in Sources */,
+				902999802C2E525900804204 /* GridView.swift in Sources */,
 				902999652C2E268B00804204 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
