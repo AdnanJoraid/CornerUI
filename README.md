@@ -1,5 +1,4 @@
-# Breaking down one of Corner iOS Views and rebuilding it 
-
+# Corner UI
 
 ## The Original View 
 ![image](https://github.com/AdnanJoraid/CornerUIKit/assets/59744727/fbcef567-1c0e-48de-b0da-5c31f024d8d2)
